@@ -21,6 +21,12 @@ public class Class1 {
         numberFour = 4;
         numberFive = 5;
         numberSix = 6;
+        numberSeven = 7;
+        numberEight = 8;
+        numberNine = 9;
+        numberTen = 10;
+        
+        System.out.println("");
 
     }
 }
