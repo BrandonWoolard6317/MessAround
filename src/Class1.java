@@ -38,10 +38,10 @@ public class CheckFromWeek {
         String Hours;
         int weekBonus;
         int unionFees;
-        int Cash;
-        int Tax;
-        int beforeTax;
-        int afterTax;
+	double Cash;
+	double Tax;
+	double beforeTax;
+	double afterTax;
 
         Scanner keyboard = new Scanner(System.in);
         
