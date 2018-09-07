@@ -57,10 +57,10 @@ public class CheckFromWeek {
         afterTax = (beforeTax - Tax) - unionFees;
         
         System.out.println("Name: Brandon Woolard")
-        System.out.println("Hours Worked: " + Hours)
-        System.out.println("Before Tax: " + beforeTax)
-        System.out.println("Tax: -" + Tax)
-        System.out.println("Union Fees: -" + unionFees)
-        System.out.println("After Taxes: " + afterTax)
+        System.out.println("Hours Worked: " + Hours " hours)
+        System.out.println("Before Tax: $" + beforeTax)
+        System.out.println("Tax: -$" + Tax)
+        System.out.println("Union Fees: -$" + unionFees)
+        System.out.println("After Taxes: $" + afterTax)
     }   
 }
