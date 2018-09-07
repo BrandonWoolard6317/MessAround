@@ -48,19 +48,20 @@ public class CheckFromWeek {
         weekBonus = 116;
         unionFees = 30;
 	    
-        System.out.println("Hours worked this week?")
+        System.out.println("Hours worked this week?");
         Hours = keyboard.nextLine();
         
         Cash = (Hours * 10.35);
         Tax = (Cash * 0.0575);
-        beforeTax = Cash + weekBonus
+        beforeTax = Cash + weekBonus;
         afterTax = (beforeTax - Tax) - unionFees;
         
-        System.out.println("Name: Brandon Woolard")
-        System.out.println("Hours Worked: " + Hours " hours)
-        System.out.println("Before Tax: $" + beforeTax)
-        System.out.println("Tax: -$" + Tax)
-        System.out.println("Union Fees: -$" + unionFees)
-        System.out.println("After Taxes: $" + afterTax)
+	System.out.println("+----------------------------+");
+        System.out.println("| Name: Brandon Woolard");
+        System.out.println("| Hours Worked: " + Hours " hours);
+        System.out.println("| Before Tax: $" + beforeTax);
+        System.out.println("| Tax: -$" + Tax);
+        System.out.println("| Union Fees: -$" + unionFees);
+        System.out.println("| After Taxes: $" + afterTax);
     }   
 }
