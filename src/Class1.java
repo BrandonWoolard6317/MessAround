@@ -22,23 +22,19 @@ public class NumberGuessingGame {
 		System.out.println("Lets play a guessing game! Pick a number between 0-100!");
 		usersInput = keyboard.nextLine();
 	       
-		//If statements off number guessing
+		//If statements of number guessing
 		if(numberGuessing == generatedNumber){
-			System.out.println("Congrats! You've guessed "+generatedNumber+" on your\n"+
-					   "first try! Can you do it again?")
+			System.out.println("Congrats! You've guessed "+generatedNumber+" correct on\nyour "+
+					   "first try! Can you do it again?");
+			System.exit(0)
 		}
 		if else(numberGuessing > generatedNumber){
-			System.out.println("You've guess over! Try again.")
+			System.out.println("Your guess is over the number! You have 3 more attempts.\nTry again.");
+			usersInput = keyboard.nextLine();
 		}
 		if else(numberGuessing < generatedNumber){
-			System.out.println("You've guess under! Try again.")
+			System.out.println("Your guess is under the number! You have 3 more attempts.\nTry again.");
 		}
-		
-		
-		
-	
-  
-        
     }   
 }
 			   
