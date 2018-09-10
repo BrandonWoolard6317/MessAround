@@ -70,10 +70,10 @@ public class NumberGuessingGame {
 								   "The number was "+generatedNumber+". Feel free to play again!");
 		        	                System.exit(0)
 					}
-	                        	}
-		                        if else(numberGuessing < generatedNumber){
-	                 	        	System.out.println("Your guess is under the number! You have 3 more attempts.\nTry again.");
-	                 	        	usersInput = keyboard.nextLine();
+	                   }
+		           if else(numberGuessing < generatedNumber){
+	                 	        System.out.println("Your guess is under the number! You have 3 more attempts.\nTry again.");
+	                 	        usersInput = keyboard.nextLine();
 	                		if(numberGuessing == generatedNumber){
 	         		        	System.out.println("Congrats! You've guessed "+generatedNumber+" correct on\nyour "+
 					         	           "second try! Can you do it again?");
