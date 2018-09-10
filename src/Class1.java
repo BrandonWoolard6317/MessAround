@@ -64,7 +64,7 @@ public class NumberGuessingGame {
 						   "last try! Can you do it again?");
 				                System.exit(0)
 					}
-					if(numberGuessing > generatedNumber){
+					if else(numberGuessing > generatedNumber){
 		        	                System.out.println("Your guess is over the number! Sorry that was your last\ntry."+
 								   "The number was "+generatedNumber+". Feel free to play again!");
 		        	                System.exit(0)
