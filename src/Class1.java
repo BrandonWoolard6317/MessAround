@@ -64,10 +64,16 @@ public class NumberGuessingGame {
 						   "last try! Can you do it again?");
 				                System.exit(0)
 					}
-					if else(numberGuessing > generatedNumber){
+					if(numberGuessing > generatedNumber){
 		        	                System.out.println("Your guess is over the number! Sorry that was your last\ntry."+
-								   Feel free to again.");
-		        	                usersInput = keyboard.nextLine();
+								   "The number was "+generatedNumber+". Feel free to play again!");
+		        	                System.exit(0)
+					}
+					if else(numberGuessing < generatedNumber){
+		        	                System.out.println("Your guess is under the number! Sorry that was your last\ntry."+
+								   "The number was "+generatedNumber+". Feel free to play again!");
+		        	                System.exit(0)
+					}
 				 	
 					
 					
